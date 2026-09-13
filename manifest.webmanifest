@@ -1,0 +1,16 @@
+{
+  "name": "Отвычка",
+  "short_name": "Отвычка",
+  "description": "Приложение, чтобы отучаться от привычек: лог триггеров, замещающее действие, пережидание тяги и тренд вместо обнуляемого стрика.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0e1219",
+  "theme_color": "#0e1219",
+  "lang": "ru",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
