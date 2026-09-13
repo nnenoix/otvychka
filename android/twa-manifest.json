@@ -1,0 +1,50 @@
+{
+  "packageId": "io.github.nnenoix.otvychka",
+  "host": "nnenoix.github.io",
+  "name": "Отвычка",
+  "launcherName": "Отвычка",
+  "display": "standalone",
+  "themeColor": "#0e1219",
+  "themeColorDark": "#0e1219",
+  "navigationColor": "#0e1219",
+  "navigationColorDark": "#0e1219",
+  "navigationDividerColor": "#0e1219",
+  "navigationDividerColorDark": "#0e1219",
+  "backgroundColor": "#0e1219",
+  "enableNotifications": false,
+  "startUrl": "/otvychka/",
+  "iconUrl": "https://nnenoix.github.io/otvychka/icon-512.png",
+  "maskableIconUrl": "https://nnenoix.github.io/otvychka/icon-512-maskable.png",
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Тяга сейчас",
+      "shortName": "Тяга",
+      "url": "/otvychka/?action=urge",
+      "chosenIconUrl": "https://nnenoix.github.io/otvychka/icon-512.png"
+    }
+  ],
+  "signingKey": {
+    "path": "./otvychka-upload.keystore",
+    "alias": "otvychka"
+  },
+  "appVersionName": "1.0.0",
+  "orientation": "portrait",
+  "splashScreenFadeOutDuration": 300,
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://nnenoix.github.io/otvychka/",
+  "minSdkVersion": 21,
+  "webManifestUrl": "https://nnenoix.github.io/otvychka/manifest.webmanifest",
+  "generatorApp": "bubblewrap-cli"
+}
