@@ -781,6 +781,9 @@ document.addEventListener("keydown",e=>{ if(e.key==="Escape"){ closeSurf(); ["ad
 
 render();
 
+/* deep link: /?action=urge (Android app shortcut / installed PWA shortcut) */
+try{ if(new URLSearchParams(location.search).get("action")==="urge") startUrge(); }catch(e){}
+
 /* ---------- service worker ---------- */
 if("serviceWorker" in navigator){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
 </script>
