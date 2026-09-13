@@ -1,2 +1,11 @@
 .playwright-mcp/
 *.log
+# Android / TWA build — NEVER commit signing keys or build outputs
+android/*.keystore
+android/KEY-INFO.txt
+android/app/
+android/.gradle/
+android/build/
+android/*.aab
+android/*.apk
+android/*.idsig
